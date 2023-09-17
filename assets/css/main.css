@@ -3374,7 +3374,7 @@ input, select, textarea {
 	}
 
 	#header {
-		background: rgba(39, 40, 51, 0.965);
+		background: #352f44;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 		cursor: default;
 		height: 3.5em;
@@ -3442,14 +3442,17 @@ input, select, textarea {
 	}
 
 	body.landing #header {
-		background: transparent;
+		
 		box-shadow: none;
 		position: absolute;
 	}
 
 /* Banner */
 
+	
+
 	#banner {
+		
 		background-attachment: fixed;
 		background-color: #000099;
 		background-image: url("../../images/banner.jpg");
@@ -3460,6 +3463,7 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 		z-index: 21;
+		
 	}
 
 		#banner:before {
@@ -3468,13 +3472,16 @@ input, select, textarea {
 			height: 100vh;
 			vertical-align: middle;
 			width: 1%;
+			
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(35, 73, 164, 0.95), rgba(63, 116, 187, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(35, 73, 164, 0.95), rgba(63, 116, 187, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(35, 73, 164, 0.95), rgba(63, 116, 187, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(35, 73, 164, 0.95), rgba(63, 116, 187, 0.95)), url("images/overlay.png");;
+			background-color: #25316D;
+			background-attachment: fixed;
+			background-image: url("images/intro.svg");
+			background-position: top right;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3482,9 +3489,12 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			width: 100%;
+			
 		}
 
+
 		#banner .content {
+			
 			display: inline-block;
 			margin-right: 1%;
 			max-width: 95%;
@@ -3520,7 +3530,7 @@ input, select, textarea {
 			}
 
 				#banner .content .image img {
-					border-radius: 100%;
+					border-radius: 0%;
 					display: block;
 					width: 100%;
 				}
@@ -3529,10 +3539,18 @@ input, select, textarea {
 		background-attachment: scroll;
 	}
 
+	/* Logo */
+
+	#logo-joel{
+		height: 100%;
+		width: auto;
+	}
+	
+
 /* Footer */
 
 	#footer {
-		background: #272833;
+		background: #352f44;
 		padding: 6em 0;
 		text-align: center;
 	}
