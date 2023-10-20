@@ -3987,6 +3987,10 @@ input, select, textarea {
 				padding: 0.75em 1.25em;
 			}
 
+			
+
+			/* Nav Panel */
+
 				#navPanel .link {
 					border: 0;
 					border-top: solid 1px rgba(255, 255, 255, 0.05);
@@ -4063,6 +4067,35 @@ input, select, textarea {
 			}
 
 	}
+
+	/*
+			
+			Language Selector
+			
+			*/
+
+
+			.lang-toggle {
+				text-decoration: none !important;
+				color: #ffffff !important; /* Default text color */
+				margin: 0 10px;
+				position: relative;
+			}
+			
+			.lang-toggle.active {
+				color: red !important; /* Color for the active language */
+			}
+			
+			.lang-toggle.active::after {
+				content: '';
+				display: block;
+				width: 100%;
+				height: 2px;
+				background-color: red !important; /* Underline color for the active language */
+				position: absolute;
+				bottom: 0.75em;
+				left: 0;
+			}
 
 /* XSmall */
 

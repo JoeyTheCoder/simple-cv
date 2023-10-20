@@ -1,0 +1,32 @@
+{
+    "en": {
+        "home": "Home",
+        "aboutNav": "About",
+        "career": "Career",
+        "skills": "Skills",
+        "services": "Services",
+        "references": "References",
+        "about": "About me",
+        "about1": "A Software Engineer from Switzerland",
+        "company": "Your Company in Focus",
+        "softwareSolution": "Customized Software Solutions of All Kinds",
+        "based": "Based in Switzerland",
+        "aboutText1": "I'm Joel Sahli, a skilled software engineer based in the midst of Switzerland's picturesque landscapes. With seven years of professional experience in the software development industry, I specialize in web development, backend systems, and scripting.",
+        "aboutText2": "As a dedicated freelancer, I am committed to delivering high-quality solutions tailored to your company's needs. My goal is to help businesses thrive in the digital landscape by providing efficient and innovative software development services. I look forward to the opportunity to contribute to your projects and bring your ideas to life."
+    },
+    "de": {
+        "home": "Startseite",
+        "aboutNav": "Über mich",
+        "career": "Karriere",
+        "skills": "Fähigkeiten",
+        "services": "Dienstleistungen",
+        "references": "Referenzen",
+        "about": "Über mich",
+        "about1": "Ein Software Engineer aus der Schweiz",
+        "company": "Ihr Unternehmen im Fokus",
+        "softwareSolution": "Massgeschneiderte Software Lösungen aller Art",
+        "based": "Mit Sitz in der Schweiz",
+        "aboutText1": "Ich bin Joel Sahli, ein erfahrener Softwareingenieur, ansässig inmitten der malerischen Landschaften der Schweiz. Mit sieben Jahren Berufserfahrung in der Softwareentwicklungsbranche habe ich mich auf Webentwicklung, Backend-Systeme und Skripterstellung spezialisiert.",
+        "aboutText2": "Als engagierter Freelancer bin ich darauf bedacht, hochwertige Lösungen zu liefern, die genau auf die Bedürfnisse Ihres Unternehmens zugeschnitten sind. Mein Ziel ist es, Unternehmen zu helfen, sich in der digitalen Landschaft zu behaupten, indem ich effiziente und innovative Softwareentwicklungsdienste anbiete. Ich freue mich auf die Möglichkeit, zu Ihren Projekten beizutragen und Ihre Ideen zum Leben zu erwecken."
+    }
+}
