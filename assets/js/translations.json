@@ -12,7 +12,23 @@
         "softwareSolution": "Customized Software Solutions of All Kinds",
         "based": "Based in Switzerland",
         "aboutText1": "I'm Joel Sahli, a skilled software engineer based in the midst of Switzerland's picturesque landscapes. With seven years of professional experience in the software development industry, I specialize in web development, backend systems, and scripting.",
-        "aboutText2": "As a dedicated freelancer, I am committed to delivering high-quality solutions tailored to your company's needs. My goal is to help businesses thrive in the digital landscape by providing efficient and innovative software development services. I look forward to the opportunity to contribute to your projects and bring your ideas to life."
+        "aboutText2": "As a dedicated freelancer, I am committed to delivering high-quality solutions tailored to your company's needs. My goal is to help businesses thrive in the digital landscape by providing efficient and innovative software development services. I look forward to the opportunity to contribute to your projects and bring your ideas to life.",
+        "skillsTitle": "Skills",
+        "skillDescr": "The skills i've aqquired so far",
+        "webDev": "Web Development",
+        "beDev": "Backend Development",
+        "devOps": "DevOps Skills",
+        "agile": "Agile Leadership Skills",
+        "careerTitle": "My professional career",
+        "scrumMasterDescr1": "Lean agile leader of a team of 8 people distributed in Zürich, Riga and Rotterdam",
+        "scrumMasterDescr2": "Building a community of practice for internal information exchange",
+        "devOpsDescr1": "Introduced SRE principles to multiple teams",
+        "devOpsDescr2": "Took over the role of Tech-Lead for an Application with an Angular Frontend and Python FastApi Backend",
+        "fsDescr1": "Collaboration as software developer in an agile team",
+        "fsDescr2": "Extended Frontend Controller with Java Spring Boot",
+        "lehrTitle": "Apprentice computer scientist application development",
+        "lehrDescr1": "First experience gained as a software developer",
+        "lehrDescr2": "Created an Angular Application as a final project"
     },
     "de": {
         "home": "Startseite",
@@ -27,6 +43,22 @@
         "softwareSolution": "Massgeschneiderte Software Lösungen aller Art",
         "based": "Mit Sitz in der Schweiz",
         "aboutText1": "Ich bin Joel Sahli, ein erfahrener Softwareingenieur, ansässig inmitten der malerischen Landschaften der Schweiz. Mit sieben Jahren Berufserfahrung in der Softwareentwicklungsbranche habe ich mich auf Webentwicklung, Backend-Systeme und Skripterstellung spezialisiert.",
-        "aboutText2": "Als engagierter Freelancer bin ich darauf bedacht, hochwertige Lösungen zu liefern, die genau auf die Bedürfnisse Ihres Unternehmens zugeschnitten sind. Mein Ziel ist es, Unternehmen zu helfen, sich in der digitalen Landschaft zu behaupten, indem ich effiziente und innovative Softwareentwicklungsdienste anbiete. Ich freue mich auf die Möglichkeit, zu Ihren Projekten beizutragen und Ihre Ideen zum Leben zu erwecken."
-    }
+        "aboutText2": "Als engagierter Freelancer bin ich darauf bedacht, hochwertige Lösungen zu liefern, die genau auf die Bedürfnisse Ihres Unternehmens zugeschnitten sind. Mein Ziel ist es, Unternehmen zu helfen, sich in der digitalen Landschaft zu behaupten, indem ich effiziente und innovative Softwareentwicklungsdienste anbiete. Ich freue mich auf die Möglichkeit, zu Ihren Projekten beizutragen und Ihre Ideen zum Leben zu erwecken.",
+        "skillsTitle": "Skills",
+        "skillDescr": "Fähigkeiten, welche ich bereits erlernt habe",
+        "webDev": "Web Entwicklung",
+        "beDev": "Backend Entwicklung",
+        "devOps": "DevOps Fähigkeiten",
+        "agile": "Agile Führungskompetenzen",
+        "careerTitle": "Mein beruflicher Werdegang",
+        "scrumMasterDescr1": "Lean agile Leader eines Teams mit 8 Mitarbeitern, welche in Zürich, Riga und Rotterdam verteilt sind",
+        "scrumMasterDescr2": "Aufbau einer Community of Practice für internen Informationsaustausch",
+        "devOpsDescr1": "SRE für mehrere Teams eingeführt",
+        "devOpsDescr2": "Verantwortung als Tech-Lead einer Applikation bestehend aus Angular Frontend und Python FastApi Backend übernommen",
+        "fsDescr1": "Mitarbeit als Softwareentwickler in einem agilen Team",
+        "fsDescr2": "Frontend Controller mit Java Spring Boot erweitert",
+        "lehrTitle": "Lernender Informatiker Applikationsentwicklung",
+        "lehrDescr1": "Erste Erfahrungen als Softwareentwickler gesammelt",
+        "lehrDescr2": "Angular Applikation als Abschlussprojekt erstellt"
+    }   
 }

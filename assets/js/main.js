@@ -31,7 +31,7 @@
 
 	// Scrolly links.
 		$('.scrolly').scrolly({
-			speed: 2000
+			speed: 1200
 		});
 
 	// Dropdowns.
@@ -43,13 +43,13 @@
 	// Nav.
 
 		// Title Bar.
-			$(
-				'<div id="titleBar">' +
-					'<a href="#navPanel" class="toggle"></a>' +
-					'<span class="title">' + $('#logo').html() + '</span>' +
-				'</div>'
-			)
-				.appendTo($body);
+		$(
+			'<div id="titleBar">' +
+				'<a href="#navPanel" class="toggle"></a>' +
+				'<span class="title">' + $('#logo').html() + '</span>' +
+			'</div>'
+		)
+			.appendTo($body);
 
 		// Panel.
 			$(
