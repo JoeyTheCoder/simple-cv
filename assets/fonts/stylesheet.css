@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Algerian Condensed LET';
+    src: url('AlgerianCondensedLetPlain.eot');
+    src: local('Algerian Condensed LET Plain:1.0'), local('AlgerianCondensedLetPlain'),
+        url('AlgerianCondensedLetPlain.eot?#iefix') format('embedded-opentype'),
+        url('AlgerianCondensedLetPlain.woff2') format('woff2'),
+        url('AlgerianCondensedLetPlain.woff') format('woff'),
+        url('AlgerianCondensedLetPlain.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

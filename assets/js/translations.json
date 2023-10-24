@@ -1,5 +1,7 @@
 {
     "en": {
+        "de" : "DE",
+        "en": "EN",
         "home": "Home",
         "aboutNav": "About",
         "career": "Career",
@@ -28,9 +30,18 @@
         "fsDescr2": "Extended Frontend Controller with Java Spring Boot",
         "lehrTitle": "Apprentice computer scientist application development",
         "lehrDescr1": "First experience gained as a software developer",
-        "lehrDescr2": "Created an Angular Application as a final project"
+        "lehrDescr2": "Created an Angular Application as a final project",
+        "contact": "Contact me",
+        "webTitle": "Websites",
+        "webDesc": "A professional online presence for your company",
+        "appTitle":"Applications",
+        "appDesc":"Elevate your business with custom native applications",
+        "scriptsTitle": "Scripts",
+        "scriptsDesc": "Increase your productivity with customized scripts"
     },
     "de": {
+        "de" : "DE",
+        "en": "EN",
         "home": "Startseite",
         "aboutNav": "Über mich",
         "career": "Karriere",
@@ -59,6 +70,14 @@
         "fsDescr2": "Frontend Controller mit Java Spring Boot erweitert",
         "lehrTitle": "Lernender Informatiker Applikationsentwicklung",
         "lehrDescr1": "Erste Erfahrungen als Softwareentwickler gesammelt",
-        "lehrDescr2": "Angular Applikation als Abschlussprojekt erstellt"
+        "lehrDescr2": "Angular Applikation als Abschlussprojekt erstellt",
+        "contact": "Kontaktieren Sie mich",
+        "webTitle": "Webseiten",
+        "webDesc": "Ein professioneller Auftritt im Internet für ihr Unternehmen",
+        "appTitle":"Applikationen",
+        "appDesc":"Optimieren Sie Ihr Geschäft mit maßgeschneiderten nativen Anwendungen",
+        "scriptsTitle": "Skripte",
+        "scriptsDesc": "Steigern Sie ihre Produktivität mit eigenen Scripts"
+        
     }   
 }

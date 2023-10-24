@@ -23,37 +23,33 @@
 
 		<!-- Header -->
 		<header id="header">
-			<h1 id="logo"><a href="index.html">JS</a></h1>
+			<h1 id="logo" style="font-size: 200%; font-family:logoFont;"><a href="index.html">JS</a></h1>
 			<nav id="nav">
 				<ul style="font-weight: bold;">
-					<li><a data-translate="home" href="index.html"></a></li>
-					<li><a data-translate="aboutNav" href="#about" class="scrolly"></a></li>
-					<li><a data-translate="services" href="#services" class="scrolly"></a></li>
-					<li><a data-translate="skills" href="#skills" class="scrolly"></a></li>
-					<li><a data-translate="career" href="career.html"></a></li>
-					<li style="padding-left: 7em;"><a href="#" class="lang-toggle" data-lang="de">DE</a></li>
-					<li style="margin-left: -0.01em;"><a href="#" class="lang-toggle" data-lang="en">EN</a></li>
+					<li><a href="index.html" data-translate-key="home" data-translate></a></li>
+					<li><a href="#about" class="scrolly" data-translate-key="aboutNav" data-translate></a></li>
+					<li><a href="#services" class="scrolly" data-translate-key="services" data-translate></a></li>
+					<li><a href="#skills" class="scrolly" data-translate-key="skills" data-translate></a></li>
+					<li><a href="#career" class="scrolly" data-translate-key="career" data-translate></a></li>
+					<li style="padding-left: 7em;"><a id="de"href="#" class="lang-toggle" data-lang="de" data-translate-key="de" data-translate></a></li>
+					<li style="margin-left: -0.01em;"><a id="en" href="#" class="lang-toggle" data-lang="en" data-translate-key="en" data-translate></a></li>
 				</ul>
 			</nav>
 		</header>
 
-
-
 		<!-- Banner -->
-
 		<section id="banner" class="palette">
 			<div class="content">
 				<header>
 					<h2 style="font-weight: 550;">Joel Sahli</h2>
 					<p style="font-weight: 300;">Fullstack Software Engineer / DevOps Engineer / Agile Leader</p>
-					<p data-translate="based" style="font-weight: 300;"></p>
+					<p data-translate-key="based" style="font-weight: 300;"></p>
 					<p></p>
 				</header>
 				<span style="" class="image"><img src="images/joel-profile-square.jpg" alt="" /></span>
 			</div>
-			<a href="#about" class="goto-next scrolly">Next</a>
+			<a href="#about" class="goto-next scrolly" data-translate-key="bannerNext" data-translate>Next</a>
 		</section>
-
 
 		<!-- About -->
 		<section id="about" class="spotlight style1 bottom">
@@ -63,73 +59,68 @@
 					<div class="row">
 						<div class="col-4 col-12-medium">
 							<header>
-								<h2 data-translate="about"></h2>
-								<p data-translate="about1"></p>
+								<h2 data-translate-key="about"></h2>
+								<p data-translate-key="about1"></p>
 							</header>
 						</div>
 						<div class="col-4 col-12-medium">
-							<p data-translate="aboutText1"></p>
+							<p data-translate-key="aboutText1"></p>
 						</div>
 						<div class="col-4 col-12-medium">
-							<p data-translate="aboutText2"></p>
+							<p data-translate-key="aboutText2"></p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<a href="#services" class="goto-next scrolly">Next</a>
+			<a href="#services" class="goto-next scrolly" data-translate-key="aboutNext" data-translate>Next</a>
 		</section>
 
-
-
-
 		<!-- Diensleistungen -->
-
 		<section id="services" class="wrapper style1 special fade-up">
 			<div class="container">
 				<header class="major">
-					<h2 data-translate="company"></h2>
-					<p data-translate="softwareSolution"></p>
+					<h2 data-translate-key="company"></h2>
+					<p data-translate-key="softwareSolution"></p>
 				</header>
 				<div class="box alt">
 					<div class="row gtr-uniform">
 						<section class="col-4 col-12-medium col-12-xsmall">
 							<img class="serviceIcon" src="images/website.jpg">
-							<h3>Webseiten</h3>
-							<p>Ein professioneller Auftritt im Internet</p>
+							<h3 data-translate-key="webTitle"></h3>
+							<p data-translate-key="webDesc"></p>
 						</section>
 						<section class="col-4 col-12-medium col-12-xsmall">
 							<img class="serviceIcon" src="images/app.jpg">
-							<h3>Applikationen</h3>
-							<p>Eigene native Applikationen für Ihre Idee</p>
+							<h3 data-translate-key="appTitle"></h3>
+							<p data-translate-key="appDesc"></p>
 						</section>
 						<section class="col-4 col-12-medium col-12-xsmall">
 							<img class="serviceIcon" src="images/script.jpg">
-							<h3>Scripts</h3>
-							<p>Scripts aller Art um die Produktivität zu steigern</p>
+							<h3 data-translate-key="scriptsTitle"></h3>
+							<p data-translate-key="scriptsDesc"></p>
 						</section>
-
 					</div>
 				</div>
 				<footer class="major">
 					<ul class="actions special">
-						<li><a href="#" class="button">Kontaktieren Sie mich!</a></li>
+						<li><a href="mailto:joel.sahli@outlook.com" class="button" data-translate-key="contact" data-translate></a></li>
 					</ul>
 				</footer>
 			</div>
-			<a href="#skills" class="goto-next-ex scrolly">Next</a>
+			<a href="#skills" class="goto-next-ex scrolly" data-translate-key="servicesNext" data-translate>Next</a>
 		</section>
 
 		<!-- Skills -->
 		<section id="skills" class="wrapper style1 special fade-up">
 			<div class="container">
 				<header class="major">
-					<h2 data-translate="skillsTitle"></h2>
-					<p data-translate="skillDescr"></p>
+					<h2 data-translate-key="skillsTitle"></h2>
+					<p data-translate-key="skillDescr"></p>
 				</header>
 				<div class="box alt">
 					<div class="row gtr-uniform">
 						<section class="col-6 col-12-medium col-12-xsmall">
-							<h3 data-translate="webDev"></h3>
+							<h3 data-translate-key="webDev"></h3>
 							<ul class="alt">
 								<li>NPM</li>
 								<li>Angular</li>
@@ -143,7 +134,7 @@
 							</ul>
 						</section>
 						<section class="col-6 col-12-medium col-12-xsmall">
-							<h3 data-translate="beDev"></h3>
+							<h3 data-translate-key="beDev"></h3>
 							<ul class="alt">
 								<li>Java</li>
 								<li>Spring</li>
@@ -157,7 +148,7 @@
 							</ul>
 						</section>
 						<section class="col-6 col-12-medium col-12-xsmall">
-							<h3 data-translate="devOps"></h3>
+							<h3 data-translate-key="devOps"></h3>
 							<ul class="alt">
 								<li>Git</li>
 								<li>Kubernetes</li>
@@ -169,7 +160,7 @@
 							</ul>
 						</section>
 						<section class="col-6 col-12-medium col-12-xsmall">
-							<h3 data-translate="agile"></h3>
+							<h3 data-translate-key="agile"></h3>
 							<ul class="alt">
 								<li>SAFe Framework</li>
 								<li>Scrum</li>
@@ -179,26 +170,26 @@
 								<li>Quality Assurance</li>
 								<li></li>
 							</ul>
-
+						</section>
 					</div>
 				</div>
-
 			</div>
-			<a href="#career" class="goto-next-ex scrolly">Next</a>
+			<a href="#career" class="goto-next-ex scrolly" data-translate-key="skillsNext" data-translate>Next</a>
 		</section>
+
 		<section id="career" class="wrapper style1 special fade-up">
 			<header class="major">
-			<h2 data-translate="careerTitle"></h2>
+				<h2 data-translate-key="careerTitle"></h2>
 			</header>
 			<div class="timeline">
 				<ul>
 					<li>
 						<div class="content">
-							<h3>Scrum Master</h3>
+							<h3 data-translate-key="scrumMasterTitle"></h3>
 							<h4>Swisscom Schweiz AG</h4>
-							<p data-translate="scrumMasterDescr1"></p>
+							<p data-translate-key="scrumMasterDescr1"></p>
 							<br>
-							<p data-translate="scrumMasterDescr2"></p>
+							<p data-translate-key="scrumMasterDescr2"></p>
 						</div>
 						<div class="time">
 							<h4>2022 - 2023</h4>
@@ -207,11 +198,11 @@
 
 					<li>
 						<div class="content">
-							<h3>DevOps Engineer</h3>
+							<h3 data-translate-key="devOpsEngineerTitle"></h3>
 							<h4>Swisscom Schweiz AG</h4>
-							<p data-translate="devOpsDescr1"></p>
+							<p data-translate-key="devOpsDescr1"></p>
 							<br>
-							<p data-translate="devOpsDescr2"></p>
+							<p data-translate-key="devOpsDescr2"></p>
 						</div>
 						<div class="time">
 							<h4>2021 - 2022</h4>
@@ -220,11 +211,11 @@
 
 					<li>
 						<div class="content">
-							<h3>Fullstack Engineer</h3>
+							<h3 data-translate-key="fullstackEngineerTitle"></h3>
 							<h4>Swisscom Schweiz AG</h4>
-							<p data-translate="fsDescr1"></p>
+							<p data-translate-key="fsDescr1"></p>
 							<br>
-							<p data-translate="fsDescr2"></p>
+							<p data-translate-key="fsDescr2"></p>
 						</div>
 						<div class="time">
 							<h4>2020 - 2021</h4>
@@ -233,18 +224,16 @@
 
 					<li>
 						<div class="content">
-							<h3 data-translate="lehrTitle"></h3>
+							<h3 data-translate-key="lehrTitle"></h3>
 							<h4>Swisscom AG</h4>
-							<p data-translate="lehrDescr1"></p>
+							<p data-translate-key="lehrDescr1"></p>
 							<br>
-							<p data-translate="lehrDescr2"></p>
+							<p data-translate-key="lehrDescr2"></p>
 						</div>
 						<div class="time">
 							<h4>2016 - 2020</h4>
 						</div>
 					</li>
-
-					
 					<div style="clear:both;"></div>
 				</ul>
 			</div>
@@ -252,9 +241,9 @@
 
 		<!-- Footer -->
 		<footer id="footer">
-			<h3>Connect with me</h3>
+			<h3 data-translate-key="connectTitle"></h3>
 			<ul class="icons">
-				<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+				<li><a href="https://www.linkedin.com/in/joel-sahli-26a484174/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 				<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 				<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 			</ul>
@@ -273,9 +262,11 @@
 	<script src="assets/js/jquery.scrollex.min.js"></script>
 	<script src="assets/js/browser.min.js"></script>
 	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
+	
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/util.js"></script>
 	<script src="assets/js/language.js"></script>
+	
 
 </body>
 
