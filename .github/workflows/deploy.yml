@@ -1,0 +1,23 @@
+name: Deploy Static Website
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Deploy to Server via SCP
+      uses: appleboy/scp-action@v0.1.4
+      with:
+        host: ${{ secrets.SERVER_IP }}
+        username: sapphirix  # Replace with your server username
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        source: "./*"   # Adjust if your static files are in a subfolder
+        target: "/var/www/joelsahli.ch"

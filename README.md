@@ -1,1 +1,1 @@
-# simple-cv
+# my personal CV as a Website
